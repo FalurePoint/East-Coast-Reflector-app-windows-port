@@ -47,13 +47,13 @@ class Window(QMainWindow):
         win.iconbitmap('logo.ico')
   
 
-        header = Label(win, text = "East Coast Reflector Desktop app v1.0").place(x = 30,y = 10)
+        header = Label(win, text = "East Coast Reflector Desktop app v1.3").place(x = 30,y = 10)
         header = Label(win, text = "Source page programed by Caleb B Harrell (KO4UYJ)").place(x = 30,y = 50)
         header = Label(win, text = "Windows Port programed by Asa J Lorentzen (KL5IS)").place(x = 30,y = 70)
         header = Label(win, text = "Page source:").place(x = 30,y = 110)
         header = Label(win, text = "http://ko4uyj.com/ecr_app/main.php").place(x = 30,y = 130)
         header = Label(win, text = "The port source code is avalable at:").place(x = 30,y = 160)
-        header = Label(win, text = "Github someday. :(").place(x = 30,y = 180)
+        header = Label(win, text = "https://github.com/KL5IS/East-Coast-Reflector-app-windows-port").place(x = 30,y = 180)
         header = Label(win, text = "Port relese date: 5/9/2022").place(x = 30,y = 220)
         header = Label(win, text = "Contact emails:").place(x = 30,y = 250)
         header = Label(win, text = "Asa, for port development and installer maintenance:").place(x = 30,y = 290)
